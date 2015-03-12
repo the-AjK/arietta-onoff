@@ -232,4 +232,4 @@ var Gpio = require('onoff').Gpio, // Constructor function for Gpio objects.
 
 ## Additional Information
 
-arietta-onoff is based on onoff module. Visit [onoff](https://www.npmjs.com/package/onoff) for more informations the original module.
+arietta-onoff is based on onoff module. Visit [onoff](https://www.npmjs.com/package/onoff) for more informations about the original module.
