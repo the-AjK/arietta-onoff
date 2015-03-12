@@ -1,0 +1,32 @@
+{
+  "name": "arietta-onoff",
+  "version": "0.1.0",
+  "description": "GPIO access and interrupt detection on the ACME Arietta board",
+  "main": "arietta-onoff.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-AjK/arietta-onoff"
+  },
+  "bugs": {
+    "url": "https://github.com/the-AjK/arietta-onoff/issues"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "epoll": "~0.1.12"
+  },
+  "keywords": [
+    "gpio",
+    "onoff",
+    "embedded",
+    "interrupt",
+    "arietta",
+    "acme",
+    "jk",
+    "linux"
+  ],
+  "author": "Alberto Garbui <alberto.garbui@gmail.com>",
+  "license": "MIT"
+}
+
