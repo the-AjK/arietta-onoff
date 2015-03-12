@@ -1,7 +1,10 @@
 # arietta-onoff 
 
 GPIO access and interrupt detection with **io.js** or **Node.js** on the ACME's Arietta board.
+
 Visit [AcmeSystems official site](http://www.acmesystems.it/arietta) for more informations about this hardware.
+
+Based on [onoff](https://www.npmjs.com/package/onoff) module.
 
 ## Installation
 
@@ -78,9 +81,7 @@ to export control of a GPIO to userspace. After control of a GPIO has been
 exported to userspace, the GPIO can be configured as an input or output.
 Thereafter, the state of an input can be read, and the state of an output can
 be written. Some systems will also allow the state of a output to be read.
-The GPIO sysfs interface can also be used for interrupt detection. onoff can
-detect several thousand interrupts per second on both the BeagleBone and the
-Raspberry Pi.
+The GPIO sysfs interface can also be used for interrupt detection. 
 
 ## API
 
