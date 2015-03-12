@@ -20,7 +20,7 @@ When the button is pressed the LED should turn on, when it's released the LED
 should turn off. This can be achieved with the following code:
 
 ```js
-var Gpio = require('onoff').Gpio,
+var Gpio = require('arietta-onoff').Gpio,
   led = new Gpio(64, 'out'),
   button = new Gpio(81, 'in', 'both');
 
@@ -49,7 +49,7 @@ ctrl-c gracefully and bails out on error. The resources used by the led and
 button Gpio objects are released by calling their unexport method.
 
 ```js
-var Gpio = require('onoff').Gpio,
+var Gpio = require('arietta-onoff').Gpio,
   led = new Gpio(64, 'out'),
   button = new Gpio(81, 'in', 'both');
 
@@ -180,7 +180,7 @@ Reverse the effect of exporting the GPIO to userspace
 Blink the LED on GPIO #64 for 5 seconds:
 
 ```js
-var Gpio = require('onoff').Gpio, // Constructor function for Gpio objects.
+var Gpio = require('arietta-onoff').Gpio, // Constructor function for Gpio objects.
   led = new Gpio(64, 'out'),      // Export GPIO #64 as an output.
   iv;
 
@@ -203,7 +203,7 @@ setTimeout(function () {
 Blink the LED on GPIO #64 for 5 seconds:
 
 ```js
-var Gpio = require('onoff').Gpio, // Constructor function for Gpio objects.
+var Gpio = require('arietta-onoff').Gpio, // Constructor function for Gpio objects.
   led = new Gpio(64, 'out');      // Export GPIO #64 as an output.
 
 // Toggle the state of the LED on GPIO #64 every 200ms 'count' times.
