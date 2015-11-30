@@ -6,6 +6,30 @@ Visit [AcmeSystems official site](http://www.acmesystems.it/arietta) for more in
 
 Based on [onoff](https://www.npmjs.com/package/onoff) module.
 
+Copyright © 2015, [Alberto Garbui](mailto:alberto.garbui@gmail.com)
+
+Find me on:
+[![alt text][1.1]][1]
+[![alt text][2.1]][2]
+[![alt text][6.1]][6]
+[![alt text][7.1]][7]
+
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
+[6.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+[7.1]: http://i.imgur.com/VlgBKQ9.png (google plus icon without padding)
+
+[1]: https://twitter.com/albertoajk
+[2]: https://www.facebook.com/ajk.alberto
+[6]: https://github.com/the-AjK
+[7]: https://plus.google.com/u/0/112632073896245208828
+
+## Repository
+
+[GitHub](https://github.com/the-AjK/arietta-onoff)
+
+[NPM](https://www.npmjs.com/package/arietta-onoff) module.
+
 ## Installation
 
     $ npm install arietta-onoff
