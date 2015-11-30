@@ -28,7 +28,7 @@ Find me on:
 
 [GitHub](https://github.com/the-AjK/arietta-onoff)
 
-[NPM](https://www.npmjs.com/package/arietta-onoff) module.
+[NPM](https://www.npmjs.com/package/arietta-onoff)
 
 ## Installation
 
